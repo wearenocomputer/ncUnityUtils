@@ -5,7 +5,7 @@ using UnityEngine;
 /// Spline interpolation class.
 /// </summary>
 
-namespace be.nocomputer.ncUnityUtils
+namespace be.nocomputer.ncunityutils
 {
     public class SplineInterpolator
     {

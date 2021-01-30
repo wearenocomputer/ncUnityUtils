@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
-namespace be.nocomputer.ncUnityUtils
+namespace be.nocomputer.ncunityutils
 {
     public class ScrubAnimation : MonoBehaviour
     {

@@ -2,7 +2,7 @@
 using UnityEngine.EventSystems;
 
 
-namespace be.nocomputer.ncUnityUtils
+namespace be.nocomputer.ncunityutils
 {
     [ExecuteInEditMode]
 

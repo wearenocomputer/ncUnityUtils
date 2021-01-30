@@ -1,12 +1,19 @@
 {
-  "name": "be.nocomputer.ncUnityUtils",
+  "name": "be.nocomputer.ncunityutils",
   "version": "1.0.0",
   "displayName": "ncUnityUtils",
   "description": "A collection of Unity util classes",
   "unity": "2019.4",
+  "dependecnies":{
+
+  },
   "author": {
     "name": "nocomputer",
     "email": "admin@nocomputer.be",
     "url": "https://www.nocomputer.be"
+  },
+  "repository":{
+        "type":"git",
+        "url":"https://github.com/wearenocomputer/ncUnityUtils.git"
   }
  }

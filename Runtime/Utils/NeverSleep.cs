@@ -6,7 +6,7 @@ using UnityEngine;
 /// <summary>
 /// Prevent the phone screen from going to sleep mode when the app is running
 /// </summary>
-namespace be.nocomputer.ncUnityUtils
+namespace be.nocomputer.ncunityutils
 {
     public class NeverSleep : MonoBehaviour
     {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace be.nocomputer.ncUnityUtils
+namespace be.nocomputer.ncunityutils
 {
     [ExecuteInEditMode]
 
