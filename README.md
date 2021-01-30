@@ -1,5 +1,6 @@
 # nocomputer Unity util classes
-nocomputer Unity3D C# util classes
+nocomputer Unity3D C# util classes - cameras, networking, tweening, shaders, etc..
+
 
 INSTALL STEPS
 
