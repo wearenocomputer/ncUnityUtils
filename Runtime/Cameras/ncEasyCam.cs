@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 namespace be.nocomputer.ncunityutils
@@ -59,6 +59,7 @@ namespace be.nocomputer.ncunityutils
                 Camera cam = gameObject.GetComponent<Camera>();
                 cam.orthographic = true;
                 cam.orthographicSize = 2;
+                cam.nearClipPlane =-1f;
                 transform.position = new Vector3(0, 1, -1);
                 transform.rotation = Quaternion.identity;
 
@@ -71,6 +72,7 @@ namespace be.nocomputer.ncunityutils
                 Camera cam = gameObject.GetComponent<Camera>();
                 cam.orthographic = true;
                 cam.orthographicSize = 5;
+                cam.nearClipPlane = -1f;
                 transform.position = new Vector3(-1, 1, 0);
                 transform.rotation = Quaternion.Euler(0, 90, 0);
 
@@ -83,6 +85,7 @@ namespace be.nocomputer.ncunityutils
                 bSetPerspectiveView = false;
                 Camera cam = gameObject.GetComponent<Camera>();
                 cam.orthographic = true;
+                cam.nearClipPlane = -1f;
                 cam.orthographicSize = 5;
                 transform.position = new Vector3(0, 1, 0);
                 transform.rotation = Quaternion.Euler(90, 0, 0);
@@ -95,10 +98,9 @@ namespace be.nocomputer.ncunityutils
                 bSetPerspectiveView = true;
                 Camera cam = gameObject.GetComponent<Camera>();
                 cam.orthographic = false;
+                cam.nearClipPlane = 0.01f;
                 transform.position = new Vector3(0, 1, 0);
                 transform.rotation = Quaternion.identity;
-
-
             }
 
         }
